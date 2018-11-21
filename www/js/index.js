@@ -36,6 +36,8 @@ var app = {
 
     function onBatteryStatus(status) {
     console.log("Level: " + status.level + " isPlugged: " + status.isPlugged);
+     document.getElementById("Level").innerHTML = status.level;
+    document.getElementById("isPlugged").innerHTML = isPlugged.level;
 }
     }
 };
